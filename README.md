@@ -1,7 +1,8 @@
 # NoobBotForDiscord Bot Template
 
 Follow these steps to get your own instance of noob.bot running:
-1. Create the Bot Application
+
+Create the Bot Application
 
 Go to the **Discord Developer Portal** by clicking [here.](https://discord.com/developers/applications)
 
@@ -37,4 +38,4 @@ Windows (PowerShell): $env:BOT_TOKEN="YOUR_TOKEN_HERE"
 
 Run the bot (make sure the filenames match):
 
-python botgithubversion.py
+python botgithubversion.py 
