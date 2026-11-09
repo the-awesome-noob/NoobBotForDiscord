@@ -1,11 +1,11 @@
-# BreadBotForDiscord Bot Template
+# NoobBotForDiscord Bot Template
 
-Follow these steps to get your own instance of bread.bot running:
+Follow these steps to get your own instance of noob.bot running:
 1. Create the Bot Application
 
 Go to the **Discord Developer Portal** by clicking [here.](https://discord.com/developers/applications)
 
-Click *New Application* and name it bread.bot.
+Click *New Application* and name it noob.bot. (or, anything you want. noob.bot isn't required, just reccomended.)
 
 Go to the *Bot* tab on the left.
 
@@ -17,9 +17,9 @@ Enable *MESSAGE CONTENT INTENT* further down on the same page.
 
 2. Download the Files
 
-Go to the Releases page by clicking [here.](https://github.com/the-awesome-noob/BreadBotFord\Discord/releases)
+Go to the bot file and download it by clicking [here.](https://github.com/the-awesome-noob/BreadBotForDiscord/blob/main/botgithubversion.py)
 
-Download botgithubversion.py and requirements.txt from the latest release.
+Also download the requirements file as without it the bot will not run. You can get it by clicking [here](https://github.com/the-awesome-noob/BreadBotForDiscord/blob/main/requirements.txt)
 
 3. Configure and Run
 
@@ -35,6 +35,6 @@ Set your Bot Token as an environment variable (replace YOUR_TOKEN_HERE):
 
 Windows (PowerShell): $env:BOT_TOKEN="YOUR_TOKEN_HERE"
 
-Run the bot (replace version_number with the version number (e.g, V9.0) and make sure the filename's match.):
+Run the bot (make sure the filenames match):
 
-python botgithubversionVversion_number.py
+python botgithubversion.py
